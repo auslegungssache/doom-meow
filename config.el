@@ -170,6 +170,7 @@ switch to MOTION state."
         ((modulep! +dvorak) (+meow--setup-dvorak))
         ((modulep! +dvp) (+meow--setup-dvp))
         ((modulep! +colemak) (+meow--setup-colemak))
+        ((modulep! +colemak-dh) (+meow--setup-colemak-dh))
         (t nil))
 
 ;;;; Doom leader/localleader
